@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    border-bottom: 3px solid #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+
+}
+
+main {
+    padding: 20px;
+}
+
+.product-section,
+.signup-section {
+    margin-bottom: 30px;
+}
+.about {
+    width: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 150px;
+    margin-bottom: -20px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    color: #f1f1f1;
+    line-height: 1.5;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+  }
+  .footer-bottom p {
+    color: white;
+  }
